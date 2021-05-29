@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from "../src/Components/home"
+import Routes from "../src/routes";
 function App() {
   return (
     <div className="App">
-    <Home/>
+      <Routes />
     </div>
   );
 }
